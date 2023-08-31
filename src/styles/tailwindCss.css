@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .center {
+    @apply flex justify-center items-center;
+  }
+  .column {
+    @apply flex flex-col;
+  }
+  .btn {
+    @apply  h-10 lg:h-12 px-4 rounded-lg text-xs lg:text-[16px] font-bold hover:bg-black hover:text-white
+  }
+  .btnPrimary{
+    @apply text-white bg-primary
+  }
+  .btnBgWhite{
+    @apply text-black bg-transparent
+  }
+  .btnSecondary{
+    @apply text-primary bg-white
+  }
+  .container{
+   @apply md:px-[8vw] px-[4vw]
+  }
+
+}
