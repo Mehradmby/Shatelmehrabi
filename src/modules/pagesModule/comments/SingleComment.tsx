@@ -37,7 +37,7 @@ const SingleComment = ({ query }: SingleCommentProps) => {
         />
       </div>
       <div className="column gap-4 justify-between w-full center">
-        <Typography title={`His revenue is`} type="Bold" fontSizeType="sizeB" />
+        <Typography title={`His/Her revenue is`} type="Bold" fontSizeType="sizeB" />
         <div className="w-10/12 h-[1px] bg-gray-500"></div>
         <Typography
           title={targetData?.revenue}
